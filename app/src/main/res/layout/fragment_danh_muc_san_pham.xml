@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.DanhMucSanPhamFragment"
+    android:background="@color/nude">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Items"
+                android:textColor="@color/orange"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnSearch"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_search"
+                app:tint="@color/orange"
+                android:background="@color/nude"/>
+        </RelativeLayout>
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTabLayout"
+            android:background="@drawable/bg_corners"
+            app:tabSelectedTextColor="@color/color_item_tab"
+            app:tabBackground="@drawable/bg_tablayout"
+            android:layout_marginTop="15dp"
+            app:tabIndicatorHeight="0dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rvListSanPham"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+</FrameLayout>

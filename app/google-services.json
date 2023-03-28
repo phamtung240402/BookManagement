@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "404045008880",
+    "project_id": "quanlisach-2c357",
+    "storage_bucket": "quanlisach-2c357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404045008880:android:bbf9fe99e51b77722f1735",
+        "android_client_info": {
+          "package_name": "com.example.baocaoapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404045008880-h9bqco1i51c20i4jgdidjndf7nbdabic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOlWsfIfCbiytZz0WXUvsm2jdhMnCymqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404045008880-h9bqco1i51c20i4jgdidjndf7nbdabic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
